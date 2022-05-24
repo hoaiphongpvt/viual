@@ -1,0 +1,5 @@
+@media(max-width: 1231px){
+    .chitietsanpham{
+        flex-wrap: wrap;
+    }
+}

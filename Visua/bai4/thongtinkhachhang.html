@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông tin khách hàng</title>
+    <style>
+        body{
+           background-image: url(https://httl.com.vn/wp-content/uploads/2021/06/background-dep-2.jpg);
+           background-repeat: no-repeat;
+           background-size: cover;
+           margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div style="height: 500px; width: 600px; background: rgb(250, 246, 246); margin-left: 31%; margin-top: 200px; border-radius: 20px;">
+        <div style="text-align: center; padding-top: 10px;">
+            <h2>THÔNG TIN KHÁCH HÀNG</h2>
+        </div>
+        <div style="text-align: center; margin-top: 80px; width: 400px; height: 270px; background-color: rgb(197, 243, 243); border-radius: 20px; margin-left: 100px;">
+            <div style="padding-top: 20px;">
+                <form action="dangkinhansach.html" method="get">
+                    <label for="tuoi">Độ tuổi:</label>
+                    <input type="text" name="tuoi"><br>
+                    <fieldset>
+                        <legend>Lĩnh vực yêu thích</legend>
+                        <input type="checkbox" name="lv" value="hc">Lĩnh vực hành chính <br>
+                        <input type="checkbox" name="lv" value="cntt">Lĩnh vực công nghệ thông tin <br>
+                        <input type="checkbox" name="lv" value="vh">Lĩnh vực văn học <br>
+                        <input type="checkbox" name="lv" value="mt">Lĩnh vực môi trường <br>
+                        <input type="checkbox" name="lv" value="vh2">Lĩnh vực văn hóa <br>
+                    </fieldset>
+                    <br>
+                    <label for="nghe">Nghề nghiệp của bạn:</label>
+                    <input type="text" name="nghe">
+                    <br>
+                    <br>
+                    <input type="submit" value="Xác nhận">
+                   </form>
+            </div>
+        </div>
+    </div> 
+</body>
+</html>

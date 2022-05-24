@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quên mật khẩu</title>
+</head>
+<body background="https://img4.thuthuatphanmem.vn/uploads/2020/07/05/hinh-anh-background-mau-sac-that-dep_034909644.jpg">
+    <div style="height: 740px; width: 600px; background: rgb(235, 229, 229); margin-left: 30%;">
+        <img src="https://upload.wikimedia.org/wikipedia/vi/0/09/Saigon_University_logo.jpg" width="600px" height="100px">
+        <h2 style="color: rgb(87, 87, 63); text-align: center;">ĐIỀN THÔNG TIN CỦA BẠN VÀ TRẢ LỜI CÂU HỎI BÍ MẬT</h2>
+        <div style="margin-left: 50px; margin-top: 50px;">
+           <form action="form_action.asp" method="get">
+               <label for="account">Tên tài khoản:</label><br>
+               <input type="text" name="account"><br>
+               <label for="email">Email:</label><br>
+               <input type="text" placeholder="abc@gmail.com"><br>
+               <label for="cauhoi">Lựa chọn câu hỏi để trả lời:</label><br>
+               <select name="cauhoi">
+                   <option value="cauhoi">Món ăn yêu thích?</option>
+                   <option value="cauhoi">Thích đi du lịch ở đâu nhất?</option>
+                   <option value="cauhoi">Màu sắc yêu thích?</option>
+                   <option value="cauhoi">Có thích chó không?</option>
+               </select>
+               <br>
+               <label for="cauhoi">Trả lời câu hỏi bí mật:</label><br>
+               <input type="text" name="cauhoi"><br>
+               <br>
+               <input type="submit" value="Submit">
+            </form>
+        </div>
+        <div style="text-align: center; margin-top: 200px;">
+            <footer>
+                <form action="dangnhap.html">
+                    <input type="submit" value="Quay lại trang đăng nhập"/>
+                </form>
+                <p>Hoặc</p>
+                <form action="dangki.html">
+                    <input type="submit" value="Đăng kí thành viên mới"/>
+                </form>
+            </footer>
+           </div>
+    </div>
+</body>
+</html>
